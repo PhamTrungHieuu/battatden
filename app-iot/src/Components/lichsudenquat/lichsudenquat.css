@@ -1,0 +1,20 @@
+.green-row {
+    background-color: rgb(25, 255, 25);
+    color: rgb(0, 0, 0); /* Màu chữ trắng để tốt hơn */
+  }
+  
+  /* Màu đỏ cho trạng thái "off" */
+  .red-row {
+    background-color: rgb(255, 60, 60);
+    color: rgb(0, 0, 0); /* Màu chữ trắng để tốt hơn */
+  }
+
+  .valueDateIp{
+    margin: 5px auto;
+    background: #fff;
+    height: 27px;
+    width: 330px;
+    border-radius: 10px;
+    font-weight: 500px;
+    color: red;
+  }

@@ -1,0 +1,78 @@
+.menu-container {
+    position: absolute;
+    border-radius: 50;
+    top: 25px;
+    left: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+.iconmenu {
+    font-size: 25px;
+    font-weight: 300px;
+    color: black;
+    border: none;
+    background:  #e7e7e7;
+    border-radius: 100px;
+    position: relative;
+    z-index: 111;
+    cursor: pointer;
+}
+
+.iconmenu:hover {
+    background: #f3f2f2cc;
+}
+.iconexit{
+        font-size: 45px;
+        font-weight: 300px;
+        color: rgb(71, 71, 71);
+        border: none;
+        background: none;
+        border-radius: none;
+        position: absolute;
+        cursor: pointer;
+        right: 10px;
+        top: 15px;
+}
+.iconexit:hover{
+    color: rgba(71, 71, 71, 0.523);
+}
+.menu {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background-color: rgba(95, 93, 93, 0.689);
+    border: 1px solid #ccc;
+    width: 1920px;
+    padding-top: 30px;
+    padding-left: 30px;
+    height: 680px;
+}
+.menu-header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding-top: 50px;
+    padding-left: 40px;
+    width: 330px;
+    /* background-image: linear-gradient(92.5deg, rgba(173,252,234,1) 26%, rgba(192,229,246,1) 64%); */
+    background: #ffffff;
+    height: 690px;
+}
+.linkmenu{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: #141414;
+}
+.ulLink{
+    border-radius: 10px;
+    width: 95%;
+    padding:10px 5px;
+    margin-top: 10px;
+    text-align: left;
+    border: none;
+    font-size: 20px;
+}
+.ulLink:hover{
+    background: #e7e7e7;
+}
